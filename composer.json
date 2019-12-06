@@ -1,0 +1,30 @@
+{
+    "name": "dtech/module-productpreview",
+    "description": "Magento 2 Admin Product Preview extension",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "deepakjangid04@gmail.com",
+            "name": "Dtech"
+        }
+    ],
+    "require": {
+        "dtech/module-base": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dtech\\ProductPreview\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "repositories": {
+        "repo.magento.com": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    }
+}

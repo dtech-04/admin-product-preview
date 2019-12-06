@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Dtech, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<add id="Dtech_ProductPreview::dtech_product_preview" title="Product Preview" module="Dtech_ProductPreview"
+ 		sortOrder="20" resource="Magento_Backend::dtech_product_preview" parent="Dtech_Base::dtechbase"/>
+        <add id="Dtech_ProductPreview::dtech_product_preview_configuration" title="Configuration" module="Dtech_ProductPreview" sortOrder="20" parent="Dtech_ProductPreview::dtech_product_preview" action="adminhtml/system_config/edit/section/product_preview" resource="Dtech_ProductPreview::dtech_product_preview_configuration"/>
+    </menu>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © Dtech, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<productpreview>
+			<general>
+				<enable_module>0</enable_module>
+				<preview_grid/>
+				<preview_edit/>
+			</general>
+		</productpreview>
+	</default>
+</config>

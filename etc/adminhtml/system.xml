@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © Dtech, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="dtech" sortOrder="999" translate="label">
+			<label>dtech</label>
+		</tab>
+		<section id="product_preview" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>Product Preview</label>
+			<tab>dtech</tab>
+			<resource>Dtech_ProductPreview::config_dtech_productpreview</resource>
+			<group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>General Configuration</label>
+				<field id="enable_module" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Enable</label>
+					<comment>Enable product preview</comment>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<field id="preview_grid" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label" type="select">
+					<label>Preview Grid</label>
+					<comment>This will add option to product grid page</comment>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+					<depends>
+                        <field id="enable_module">1</field>
+                    </depends>
+				</field>
+				<field id="preview_edit" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="30" translate="label" type="select">
+					<label>Preview Edit</label>
+					<comment>This will add option to product edit page</comment>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+					<depends>
+                        <field id="enable_module">1</field>
+                    </depends>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
