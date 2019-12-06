@@ -1,4 +1,4 @@
-# Dtech Module ProductPreview
+# Dtech Magento 2 Admin Product Preview
 
     ``dtech/module-productpreview``
 
