@@ -32,11 +32,11 @@
 
 ## Configuration
 
- - Enable (productpreview/general/enable_module)
+ - Enable
 
- - Preview Grid (productpreview/general/preview_grid)
+ - Preview Grid
 
- - Preview Edit (productpreview/general/preview_edit)
+ - Preview Edi
 
 
 ## Specifications
