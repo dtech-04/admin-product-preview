@@ -1,5 +1,5 @@
 {
-    "name": "dtech/module-productpreview",
+    "name": "dtech/admin-product-preview",
     "description": "Magento 2 Admin Product Preview extension",
     "version": "1.0.0",
     "type": "magento2-module",
