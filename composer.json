@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "dtech/module-base": "^1.0.0"
+        "dtech/base": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
